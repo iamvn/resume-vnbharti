@@ -1,4 +1,4 @@
-export default function Headers() {
+export default function Header() {
   return (
     <div className="w-100">
       <div className="flex gap-2 justify-between">
