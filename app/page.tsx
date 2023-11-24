@@ -55,7 +55,7 @@ export default function Home() {
         <div className="text-xl font-medium text-zinc-200 py-5">Projects</div>
         <div className="flex gap-3">
           {[1, 2, 3, 4].map((val, index) => {
-            return <Projects />;
+            return <Projects key={index}/>;
           })}
         </div> 
 
