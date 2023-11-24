@@ -1,7 +1,7 @@
 export default function Header() {
   return (
-    <div className="w-100">
-      <div className="flex gap-2 justify-between">
+    <div className="w-100 p-5">
+      <div className="flex gap-2 justify-between px-5">
         <div className="flex gap-x-2 items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
